@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logic-design-modeler" id="799130B4-E28C-0720-AD33-5C5F048130D1" version="3.5">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 22:14:49 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>799130B4-E28C-0720-AD33-5C5F048130D1</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="913FF410-FAE0-E1D2-D4A3-7F2C6D5B9476">
+<designStoragePath>C:\FarmaciaMIA_tablas</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

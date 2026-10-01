@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CLIENTE" directorySegmentName="seg_0" id="86EDED60-56FD-7A4C-2ADE-B00328E69FAD">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMAIL" id="2D8D447D-25CF-0B3C-7732-04B55E0721BD">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CED_CLIENTE" id="495D883C-74B4-E853-D75B-D525AEDF2AAF">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="6596FFE7-D2DB-123D-58B5-96F99C4C42EE">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDOS" id="82050FC0-B4DD-4898-5B6C-FB35633BB554">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="8AE3A57C-EF0B-ED46-276E-A15C340A42E9">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRES" id="E0C438A9-3697-1E03-AFEB-896DD76CF9C1">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CLIENTE" id="C40BC954-1ECF-B15E-639F-8D098F474ACB">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COMPRA" directorySegmentName="seg_0" id="E0BE705A-E028-7A51-B9B9-344915AB277A">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA" id="7839E661-282C-0147-B3E9-34F6D239C000">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="RUC_PROVEEDOR" id="9BEBB965-CBF8-4133-D15D-1B28095E2529">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="C035AB73-852E-A0D1-B115-48646F5CADCA">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<defaultValue>&apos;PENDIENTE&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NUM_COMPRA" id="C700AD47-DD2C-E2AC-B187-FB5251E58BE0">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_SUCURSAL" id="F9936431-984D-F1EE-06C1-422BD6E1AC10">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_COMPRA_PROVEEDOR" id="A92B8A01-CE94-A171-3E15-8A58CE495FEE">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_COMPRA_SUCURSAL" id="EB5E35BD-D6C6-C914-326B-12E020DB9652">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COMPRA_PROVEEDOR" id="089EBE1E-14C5-45DC-56A4-2E0882BE3ED8">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COMPRA_SUCURSAL" id="BB2DB6ED-899B-EF96-9EEF-C3631C99FF5E">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_COMPRA" id="B8FBBBE5-3C8D-E28F-FA45-2542922C018D">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CK_COMPRA_ESTADO" id="99FEFADC-2BC8-87C3-9578-970B0A81CA06">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

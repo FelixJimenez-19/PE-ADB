@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLEADO" directorySegmentName="seg_0" id="316A25DB-E4A1-C6A9-643C-B5FC17E05194">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="APELLIDOS" id="0161E914-810C-BDC6-691C-F437B8F0C1B0">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CARGO" id="0D248FAA-38E3-9DD1-0D91-DBD41F9B9E82">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_SUCURSAL" id="450449C5-D648-200A-4A3A-0847E5AAC4A6">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="4A0A0FBE-8298-FEB5-DBE7-F5BFA4F82136">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CED_EMPLEADO" id="5EFA1D1F-1918-1F03-45DD-60BDA46DC0FD">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRES" id="EB8BB384-CC52-93AB-392E-40D3BDF43747">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_EMPLEADO_SUCURSAL" id="FC164CF3-F9C2-4926-69CE-7AEB9A324FAD">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_EMPLEADO_SUCURSAL" id="B6FEE2AB-83E4-62E3-DB47-89AA5FF04167">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_EMPLEADO" id="A5D50572-0B07-F335-A736-3F08451D3C04">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

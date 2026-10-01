@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="SEQ_SUCURSAL" directorySegmentName="seg_0" id="FC3C68A2-EABA-B8E9-EAE2-5C29C493C1B0">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:45:29 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<incrementBy>1</incrementBy>
+<noCache>YES</noCache>
+<startWith>1</startWith>
+</SequenceOraclev10g>

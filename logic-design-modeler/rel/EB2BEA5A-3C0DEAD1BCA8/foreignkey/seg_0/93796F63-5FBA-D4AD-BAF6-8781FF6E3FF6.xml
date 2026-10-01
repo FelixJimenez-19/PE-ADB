@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93796F63-5FBA-D4AD-BAF6-8781FF6E3FF6" containerWithKeyObject="4A5F1CD4-3A91-7D85-F6FF-B0768D917511" localFKIndex="CE3AAD2D-046D-2FF4-A078-D9040D42B948" name="FK_DETVENTA_PRODUCTO">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>4A4EAED6-DE58-4B1F-7A55-53247724532B</importedID>
+<referredTableLongName>PRODUCTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>517E1B8A-4D57-AA23-B986-D215E8769D85</referredTableID>
+<keyObject>71E20887-DC75-7F09-CDD5-90516E6E7A08</keyObject>
+<referredKeyID>71E20887-DC75-7F09-CDD5-90516E6E7A08</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_PRODUCTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

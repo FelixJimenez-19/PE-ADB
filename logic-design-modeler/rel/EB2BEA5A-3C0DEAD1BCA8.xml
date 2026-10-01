@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="EB2BEA5A-8430-3081-7105-3C0DEAD1BCA8" mainViewID="27588389-46BB-C892-07A9-53611F8055DD">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 22:14:50 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>FarmaciaMIA_tablas.sql</fileName>
+<pathName>C:\Users\felix\base de datos</pathName>
+<dbType>14</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

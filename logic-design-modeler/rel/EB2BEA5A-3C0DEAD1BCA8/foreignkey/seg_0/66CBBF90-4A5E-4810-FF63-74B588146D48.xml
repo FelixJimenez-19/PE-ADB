@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66CBBF90-4A5E-4810-FF63-74B588146D48" containerWithKeyObject="E0BE705A-E028-7A51-B9B9-344915AB277A" localFKIndex="089EBE1E-14C5-45DC-56A4-2E0882BE3ED8" name="FK_COMPRA_PROVEEDOR">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>46FE287B-7141-5208-5E1A-A9EA028EF9C2</importedID>
+<referredTableLongName>PROVEEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9F6932F-9EB3-F260-2528-E9A49E4AA0C9</referredTableID>
+<keyObject>B17DD349-AB07-4363-AA4D-9F0877B3E83E</keyObject>
+<referredKeyID>B17DD349-AB07-4363-AA4D-9F0877B3E83E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUC_PROVEEDOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

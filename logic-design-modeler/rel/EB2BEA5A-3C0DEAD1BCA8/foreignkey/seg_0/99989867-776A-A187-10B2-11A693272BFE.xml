@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99989867-776A-A187-10B2-11A693272BFE" containerWithKeyObject="D3DF7D5E-1421-AC0D-D5FA-FD07402CD48A" localFKIndex="25163305-1DA9-021C-BD35-D4E53661F804" name="FK_VENTA_CLIENTE">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>4D14C7D4-2B39-999D-5129-BD9BFFBA73CF</importedID>
+<referredTableLongName>CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86EDED60-56FD-7A4C-2ADE-B00328E69FAD</referredTableID>
+<keyObject>C40BC954-1ECF-B15E-639F-8D098F474ACB</keyObject>
+<referredKeyID>C40BC954-1ECF-B15E-639F-8D098F474ACB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CED_CLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

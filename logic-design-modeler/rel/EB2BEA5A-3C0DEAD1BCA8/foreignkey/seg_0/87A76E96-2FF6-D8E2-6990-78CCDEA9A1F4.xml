@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87A76E96-2FF6-D8E2-6990-78CCDEA9A1F4" containerWithKeyObject="E0BE705A-E028-7A51-B9B9-344915AB277A" localFKIndex="BB2DB6ED-899B-EF96-9EEF-C3631C99FF5E" name="FK_COMPRA_SUCURSAL">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>6012EFE4-DB45-1F39-90A2-2A9B6FBE5EE7</importedID>
+<referredTableLongName>SUCURSAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31BF3EC1-0D6B-0589-4977-AFCFF494EBC0</referredTableID>
+<keyObject>76E3CB44-886E-17CB-36CC-4DDDFA8EB83D</keyObject>
+<referredKeyID>76E3CB44-886E-17CB-36CC-4DDDFA8EB83D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_SUCURSAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

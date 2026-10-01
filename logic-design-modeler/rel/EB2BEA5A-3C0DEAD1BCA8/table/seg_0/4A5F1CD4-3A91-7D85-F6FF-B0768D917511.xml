@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A5F1CD4-3A91-7D85-F6FF-B0768D917511" name="DETALLE_VENTA">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>FD9DA917-BC09-31D1-0B9F-7E5EC92F6555</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_VENTA" id="4B2538D0-1B81-B4DE-7DBD-0FB8E728396A">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>1534F7F1-8275-FCAF-B2FE-3A6353BAB713</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>90C7793C-8D34-7D79-411D-106E8AD9B2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12A79040-8C13-060B-7A10-FCE37FEBA42C" referredColumn="0D68B2A8-8C8B-DB4E-DFF5-78091028B941"/>
+</associations>
+</Column>
+<Column name="COD_PRODUCTO" id="5301D859-5A1D-D87E-A738-397B4AE28424">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>F7D92C1E-4E3D-D046-3C77-D8409F154140</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>265498AC-B446-4157-79C1-AD31EB4E1753</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93796F63-5FBA-D4AD-BAF6-8781FF6E3FF6" referredColumn="CAEB00A2-9220-D212-164B-5978155517C4"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="C5EFFC08-B00D-4631-09DF-11AB18118C56">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>9A51659A-A318-92CB-2654-F729766B074E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>265498AC-B446-4157-79C1-AD31EB4E1753</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_UNIT" id="E15FDA21-0F50-9F48-35C7-6EA2149F2640">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>CA9F38CE-242C-55D1-C3A1-7EDD449269B6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6751B154-6A05-4464-0357-69C3CECFBE24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="150BEDB6-2251-17C4-D7FE-F8DDF56AC0A8" name="PK_DETALLE_VENTA">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>5E8DBD7C-61E1-412C-1CEE-2C85B805215F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B2538D0-1B81-B4DE-7DBD-0FB8E728396A"/>
+<colUsage columnID="5301D859-5A1D-D87E-A738-397B4AE28424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D026F731-A6EE-7B83-ACC1-D0A739924D20" name="IX_DETVENTA_PRODUCTO">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>4C2AB650-7F22-1440-1C98-73FAD4FD5D18</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5301D859-5A1D-D87E-A738-397B4AE28424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE3AAD2D-046D-2FF4-A078-D9040D42B948" name="FK_DETVENTA_PRODUCTO">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5301D859-5A1D-D87E-A738-397B4AE28424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25C52ED0-223D-0C31-382B-7F86F1697AE0" name="FK_DETVENTA_VENTA">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B2538D0-1B81-B4DE-7DBD-0FB8E728396A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_DETVENTA_CANTIDAD" directorySegmentName="seg_0" id="12EDD67A-969C-2C8D-1332-E610AC3553FD">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>504A1F9A-F1DB-C922-127A-3B2C4E2375F6</importedID>
+<rule><![CDATA[CANTIDAD > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_DETVENTA_PRECIO" directorySegmentName="seg_0" id="D65BC8BA-6789-6E99-7A04-D51D5C2A73F4">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>6E02A836-6A50-67E9-05F9-7C37E28F7995</importedID>
+<rule><![CDATA[PRECIO_UNIT >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

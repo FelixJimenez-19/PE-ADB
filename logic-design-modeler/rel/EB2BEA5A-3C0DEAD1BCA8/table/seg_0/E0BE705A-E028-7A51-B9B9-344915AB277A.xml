@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0BE705A-E028-7A51-B9B9-344915AB277A" name="COMPRA">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>61E2855E-7952-5BE9-4A06-CD79A2378AEB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_COMPRA" id="C700AD47-DD2C-E2AC-B187-FB5251E58BE0">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>38BABCB5-1637-E7E4-21F2-CCB8E31A9F7C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>90C7793C-8D34-7D79-411D-106E8AD9B2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="7839E661-282C-0147-B3E9-34F6D239C000">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>6858BC3F-B371-14E2-0C3A-EAEA8108200F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>49EB1BA7-89DD-613B-4B92-682BD77E5403</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="C035AB73-852E-A0D1-B115-48646F5CADCA">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>BDADCAB3-A76F-A9A6-D527-04CD1C3670AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E4DE745-373D-D9D8-2307-D99533C83587</domain>
+<defaultValue>&apos;PENDIENTE&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUC_PROVEEDOR" id="9BEBB965-CBF8-4133-D15D-1B28095E2529">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>46A9B789-E1A8-4837-FD86-D3853405327C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3770843A-0AF1-C946-1AC7-951F87E76D56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66CBBF90-4A5E-4810-FF63-74B588146D48" referredColumn="7BBE2CFA-3AFC-8471-416D-10B19111AED4"/>
+</associations>
+</Column>
+<Column name="COD_SUCURSAL" id="F9936431-984D-F1EE-06C1-422BD6E1AC10">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>8E2CD6F4-2538-0723-86D9-5153116C68B3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F2DB244F-0EA5-5250-764A-77BA5EED18FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A76E96-2FF6-D8E2-6990-78CCDEA9A1F4" referredColumn="5D4FC577-2D7D-66EE-080D-EA7AD6ED67BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8FBBBE5-3C8D-E28F-FA45-2542922C018D" name="PK_COMPRA">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>05BAA5C3-272E-E458-8DD8-DC79116D0A54</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C700AD47-DD2C-E2AC-B187-FB5251E58BE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A92B8A01-CE94-A171-3E15-8A58CE495FEE" name="IX_COMPRA_PROVEEDOR">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>4252253C-B560-8949-5745-09583ADA38B9</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BEBB965-CBF8-4133-D15D-1B28095E2529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB5E35BD-D6C6-C914-326B-12E020DB9652" name="IX_COMPRA_SUCURSAL">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>9B4808A9-BD27-3F64-84A7-0CD7F832E17C</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9936431-984D-F1EE-06C1-422BD6E1AC10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="089EBE1E-14C5-45DC-56A4-2E0882BE3ED8" name="FK_COMPRA_PROVEEDOR">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BEBB965-CBF8-4133-D15D-1B28095E2529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB2DB6ED-899B-EF96-9EEF-C3631C99FF5E" name="FK_COMPRA_SUCURSAL">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9936431-984D-F1EE-06C1-422BD6E1AC10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_COMPRA_ESTADO" directorySegmentName="seg_0" id="99FEFADC-2BC8-87C3-9578-970B0A81CA06">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>6DA631C3-8A00-F0BD-FA34-624BD66507D6</importedID>
+<rule><![CDATA[ESTADO IN ('PENDIENTE','RECIBIDA','ANULADA')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

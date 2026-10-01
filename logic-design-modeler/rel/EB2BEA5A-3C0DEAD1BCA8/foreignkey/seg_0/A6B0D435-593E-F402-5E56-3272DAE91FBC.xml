@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6B0D435-593E-F402-5E56-3272DAE91FBC" containerWithKeyObject="74797BF4-4E1F-72B4-D230-D1BA04D80EB8" localFKIndex="0CC36E75-0633-9BDA-472B-7CEF5180CAF2" name="FK_DETCOMPRA_COMPRA">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>F27F8F27-947B-3683-34D9-22D04D275E9D</importedID>
+<referredTableLongName>COMPRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0BE705A-E028-7A51-B9B9-344915AB277A</referredTableID>
+<keyObject>B8FBBBE5-3C8D-E28F-FA45-2542922C018D</keyObject>
+<referredKeyID>B8FBBBE5-3C8D-E28F-FA45-2542922C018D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUM_COMPRA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

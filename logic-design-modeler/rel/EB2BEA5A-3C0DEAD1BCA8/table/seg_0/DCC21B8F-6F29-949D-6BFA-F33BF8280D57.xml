@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCC21B8F-6F29-949D-6BFA-F33BF8280D57" name="INVENTARIO">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>B97BC3F8-2C25-1AF6-201C-9FC1B655A0CD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_INVENTARIO" id="976AAD1F-7BD7-96B7-BC9B-5F3A7AB4D4A8">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>CDF82A63-E7C8-A469-72D9-6979AF2019AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>90C7793C-8D34-7D79-411D-106E8AD9B2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PRODUCTO" id="B4BDF8F6-77EF-430E-FBF0-E6D0B871D3EC">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>2F72234B-22D3-E2A4-D2BC-633E6E302443</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>265498AC-B446-4157-79C1-AD31EB4E1753</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90B6446D-14D8-3DDD-08D7-EDA36139C99D" referredColumn="CAEB00A2-9220-D212-164B-5978155517C4"/>
+</associations>
+</Column>
+<Column name="COD_SUCURSAL" id="A7E73C7E-3D00-5B78-525E-9FF901AF8F49">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>F8ACC95D-E6E8-E6E6-0231-471A13D658A7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F2DB244F-0EA5-5250-764A-77BA5EED18FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A3F8557-F3C3-05A4-41AB-0DFB0E8BAB9E" referredColumn="5D4FC577-2D7D-66EE-080D-EA7AD6ED67BA"/>
+</associations>
+</Column>
+<Column name="STOCK" id="950D3B30-AC25-6708-2B35-8293A60B4144">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>6118327E-C3AD-08B8-A715-AFE110B06B7F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C9242AF3-4053-17E4-7AD7-53D9BC497B42</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK_MIN" id="A2D8EA29-78A9-D416-41BA-1F268E27A3EA">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>231A146D-6DCF-5DAD-4BC9-DAD962672B13</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C9242AF3-4053-17E4-7AD7-53D9BC497B42</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK_MAX" id="875E75B9-5A11-9BDC-9B48-C2E4474CAB24">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>4AE4D7B9-D178-A240-D7C6-5D40E313CA85</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C9242AF3-4053-17E4-7AD7-53D9BC497B42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E261B21-46CA-6CBF-6254-36CD8EE82A40" name="PK_INVENTARIO">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>F279030F-5DC4-A5AA-C886-2E713223A288</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="976AAD1F-7BD7-96B7-BC9B-5F3A7AB4D4A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5847992B-5E6D-D050-2496-F2716EF3EADE" name="UQ_INVENTARIO_PROD_SUC">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>E66F3C82-3735-3298-0CE8-C16AAE072AD7</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4BDF8F6-77EF-430E-FBF0-E6D0B871D3EC"/>
+<colUsage columnID="A7E73C7E-3D00-5B78-525E-9FF901AF8F49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08647421-AA39-4AD3-4B40-20FF7E664BD4" name="IX_INVENTARIO_PRODUCTO">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>4778AE2F-B019-BEE9-472C-BD7C37A26512</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4BDF8F6-77EF-430E-FBF0-E6D0B871D3EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A066240-6AD3-D72D-70E7-482E22125D74" name="IX_INVENTARIO_SUCURSAL">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>F2560EC6-86FA-4CE2-F401-6814CFC7E2DC</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7E73C7E-3D00-5B78-525E-9FF901AF8F49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92AAA120-4DE1-FDDE-C2ED-62AA2ADCD3F8" name="FK_INVENTARIO_PRODUCTO">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4BDF8F6-77EF-430E-FBF0-E6D0B871D3EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B945A199-C187-C78B-5710-62FA20F75533" name="FK_INVENTARIO_SUCURSAL">
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7E73C7E-3D00-5B78-525E-9FF901AF8F49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_INVENTARIO_STOCK" directorySegmentName="seg_0" id="23CC0D07-5BED-D724-16DE-4053EE5E437A">
+<sourceDDLFile>FarmaciaMIA_tablas.sql</sourceDDLFile>
+<createdBy>felix</createdBy>
+<createdTime>2026-10-01 23:46:41 UTC</createdTime>
+<ownerDesignName>logic-design-modeler</ownerDesignName>
+<importedID>B3369955-9500-7B8D-A3D2-A07940F57134</importedID>
+<rule><![CDATA[STOCK >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
